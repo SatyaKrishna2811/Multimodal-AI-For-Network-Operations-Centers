@@ -2,7 +2,7 @@
 
 # Multimodal Anomaly Detection for Network Operations Centers (NOC)
 
-This project implements a **Multimodal Anomaly Detection System** designed for Network Operations Centers (NOC). It leverages a **Transformer-based architecture** to fuse and analyze three distinct types of data simultaneously:
+This project implements a **Multimodal Anomaly Detection System** designed for Network Operations Centers (NOC). It leverages a **Transformer-based architecture** to fuse and analyze three distinct types of data simultaneously
 
 1. **Text Logs** (Natural Language from routers/servers)
 2. **Metrics** (Numerical time-series data like Latency, Bandwidth, Packet Loss)
