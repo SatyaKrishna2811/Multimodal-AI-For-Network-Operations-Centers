@@ -42,19 +42,6 @@ The system detects network anomalies by learning correlations across these modal
 
 ---
 
-## 📂 Project Structure
-
-```bash
-├── multimodal_anomaly_detection.ipynb  # Main notebook containing model training & logic
-├── app.py                              # Streamlit dashboard application
-├── requirements.txt                    # List of dependencies
-├── README.md                           # Project documentation
-└── logs/                               # Directory for saving training logs (optional)
-
-```
-
----
-
 ## 🔧 Installation & Setup
 
 ### Prerequisites
@@ -73,12 +60,12 @@ pip install torch torchvision pandas numpy matplotlib networkx streamlit pyngrok
 
 ### 2. Train the Model
 
-Open and run the `multimodal_anomaly_detection.ipynb` notebook. This script will:
+Open and run the `icn_prototype_grp3.ipynb` notebook. This script will:
 
 * Generate synthetic training data.
 * Train the Transformer model.
 * Evaluate performance and print detected anomalies.
-* Save visualization plots (`metrics_with_anomalies.png`, `topology.png`).
+* Save visualization plots.
 
 ### 3. Run the Dashboard
 
